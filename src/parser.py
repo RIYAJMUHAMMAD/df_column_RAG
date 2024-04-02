@@ -23,7 +23,7 @@ class Reader:
                     for column in df.columns:
                         if sheet_name_is_influencial:
                             node = TextNode(
-                                    text=column + sheet_name
+                                    text=column +" " +sheet_name
                                 )
                         else:
                             node = TextNode(
