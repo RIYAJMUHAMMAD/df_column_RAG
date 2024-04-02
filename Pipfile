@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+llama-index-readers-file = "*"
+pymupdf = "*"
+pandas = "*"
+openpyxl = "*"
+llama-index-vector-stores-postgres = "*"
+ipykernel = "*"
+python-dotenv = "*"
+llama-index-embeddings-huggingface = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
